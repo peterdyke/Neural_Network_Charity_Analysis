@@ -7,7 +7,15 @@ Software Used: Python 3.8.8, Pandas, Jupyter Notebook, Virtual Studio Code 1.57.
 Data Source: charity_data.csv (file with 34,000 organizations that have received funding in the past)
 
 ## Preprocessing
-
+* To preprocess the data, the categorical variables need to be encoded, and binned or bucketed appropriately. We used the .nunique() method to determine which variables needed to be binned before encoding, finding that the "Application_Type" and "Classification" variables have enough unique values to warrant binning.
+    * <img src= "Resources/Images/Categorical_unique.png">
+* The below code demonstrates the process of binning the "Application_Type" variable, putting all values less than 180 into the "Other" category.
+    * <img src= "Resources/Images/bin_example.png">
+* Once the two previously identified variables have been beened, OneHotEncoding was used to translate all categorical variables into integer data. This encoded dataframe was then merged with the original dataframe, and the original categorical columns were dropped.
+    * <img src= "Resources/Images/encode_df.png">
+* Finally, using the StandardScaler, the data was standardized and split into training and test data sets.
+    * <img src= "Resources/Images/split.png">  
+    
 ## Analysis
 
 ## Summary
