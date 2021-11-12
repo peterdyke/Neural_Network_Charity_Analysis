@@ -1,5 +1,5 @@
 # Neural_Network_Charity_Analysis
-## Projcet Overview
+## Project Overview
 Working for a nonprofit charity organization, the goal of this project is to build a machine learning model that will successfully determine which groups and applicants for a grant will be successful, and which will be denied. Using the Python TensorFlow library, we will build a deep learning model to help our organization decide where to make investments. Through the preprocessing steps of encoding and standardizing the data, we will prepare it for our model. Then we will develop, train, and fit a Machine Leaning model for our analysis.
 
 ## Resources
