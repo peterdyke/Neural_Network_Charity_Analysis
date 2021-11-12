@@ -15,7 +15,13 @@ Data Source: charity_data.csv (file with 34,000 organizations that have received
     * <img src= "Resources/Images/encode_df.png">
 * Finally, using the StandardScaler, the data was standardized and split into training and test data sets.
     * <img src= "Resources/Images/split.png">  
-    
-## Analysis
 
+## Analysis
+* First we created a neural network with two hidden layers. This model was then compiled and fit. Reults are below. We also saved the models weights every 5 epochs, and saved those results. See code for the model and the evaluation below.
+    * <img src= "Resources/Images/define_model.png">
+    * <img src = "Resources/Images/evaluate_save.png">
+
+## Optimization
+* Because the model was only 73% accurate, and our threshold was 75%, the model needs to be optimized.  
+* 
 ## Summary
